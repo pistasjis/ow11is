@@ -3,7 +3,7 @@ title: 'Index'
 ---
 # ow11is - Odyssey's Windows 11 Improvement Script
 
-![GitHub contributors](https://img.shields.io/github/all-contributors/Odyssey346/ow11is/master) ![GitHub issues](https://img.shields.io/github/issues-raw/Odyssey346/ow11is) ![Matrix](https://img.shields.io/matrix/ow11is:drivet.xyz)
+![GitHub contributors](https://img.shields.io/github/all-contributors/Odyssey346/ow11is/master) [![GitHub issues](https://img.shields.io/github/issues-raw/Odyssey346/ow11is)](https://github.com/Odyssey346/ow11is/issues) [![Matrix](https://img.shields.io/matrix/ow11is:drivet.xyz)](https://matrix.to/#/#ow11is:drivet.xyz)
 
 ## A perfectly opinionated script to improve Windows 11.
 
