@@ -1,5 +1,18 @@
 #Requires -RunAsAdministrator
 #Requires -Version 6.0
+<#
+.SYNPOSIS
+	A perfectly opinionated script to improve Windows 11.
+
+.DESCRIPTION
+	This is Odysseys' Windows 11 Improvement Script. It does stuff.
+.NOTES
+	Version: 1.0.0
+	Author: Odyssey346
+	Last Updated: 17.10.2022
+.LINK
+	https://odyssey346.dev/ow11is
+#>
 $Version = "1.0.0"
 
 Write-Host "Ow11is - Odyssey's Windows 11 Improvement Script - running on $env:computername - v$Version" -ForegroundColor Cyan
