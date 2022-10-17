@@ -9,7 +9,7 @@ title: 'Index'
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Required to run remote scripts (only once)
-irm https://raw.githubusercontent.com/Odyssey346/ow11is/master/ow11is.ps1 | iex # Todo: make this shorter
+irm https://dl.odyssey346.dev/ow11is | iex # Todo: make this shorter
 ```
 
 Administrator privileges are required to run this script.
