@@ -9,7 +9,7 @@
 .NOTES
 	Version: 1.0.0
 	Author: Odyssey346
-	Last Updated: 17.10.2022
+	Last Updated: 22.10.2022
 .LINK
 	https://odyssey346.dev/ow11is
 #>
