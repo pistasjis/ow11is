@@ -24,6 +24,8 @@ if ([System.Environment]::OSVersion.Version.Build -lt 22000) {
 
 Write-Host 'Enabling file extensions in Explorer' -ForegroundColor Green
 Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name 'HideFileExt' -Value 0
+Write-Host 'Enabling Separate Process in Explorer' -ForegroundColor Green
+Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name 'SeparateProcess' -Value 1
 Write-Host 'Disabling the built-in bandwidth limit' -ForegroundColor Green
 Set-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\Psched' -Name 'NonBestEffortLimit' -Value 0
 Write-Host 'Disabling ads in Start Menu' -ForegroundColor Green
